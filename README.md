@@ -60,15 +60,35 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 Replace `your_openai_api_key`, `your_mongodb_connection_string`, `your_cloudinary_cloud_name`, `your_cloudinary_api_key`, `your_cloudinary_api_secret` with your actual credentials.
 
-### Run the Application
+## Run the Application
 
-Start the development server:
+Follow these steps to start the development servers for both the frontend and backend:
 
-```bash
-npm run dev
-```
+1. **Navigate to the Client Directory**
 
-This will start the backend server and the frontend development server concurrently.
+   Change to the client directory where the frontend code is located and start the frontend development server:
+
+   ```bash
+   cd client
+   npm run dev
+   ```
+
+2. **Open a New Terminal Window**
+
+   To keep the backend server running in a separate terminal, open a new terminal window and navigate to the server directory.
+
+3. **Navigate to the Server Directory**
+
+   Change to the server directory where the backend code is located and start the backend server:
+
+   ```bash
+   cd ../server
+   npm start
+   ```
+
+This will start the frontend server using Vite and the backend server using Node.js in separate terminals, allowing you to develop and test both parts of your application simultaneously.
+
+Feel free to adjust the instructions according to your project’s specific setup or folder structure.
 
 ## Usage
 
