@@ -96,10 +96,3 @@ Feel free to adjust the instructions according to your project’s specific setu
 2. **Upload Images**: Use Cloudinary to upload generated images. The platform integrates Cloudinary for efficient image storage and delivery.
 3. **Share Images**: Once images are generated and uploaded, you can share them with the community by uploading them through the platform’s sharing feature.
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to the project, please fork the repository, make your changes, and create a pull request. Ensure your code adheres to the project’s coding standards.
-
----
-
-Feel free to adjust the template to fit your specific project details and preferences!
